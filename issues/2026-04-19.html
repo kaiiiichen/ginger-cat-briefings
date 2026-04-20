@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Daily Briefing — 2026-04-19 · Ginger Cat Briefings</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+
+<style>
+
+:root {
+  --ink: #1a1a1a;
+  --paper: #fdfbf6;
+  --rule: #c8bfa8;
+  --accent: #8b3a2b;
+  --muted: #6b6558;
+  --max: 720px;
+}
+* { box-sizing: border-box; }
+body {
+  font-family: 'Source Serif Pro', 'Noto Serif SC', Georgia, serif;
+  font-size: 18px;
+  line-height: 1.65;
+  color: var(--ink);
+  background: var(--paper);
+  margin: 0;
+  padding: 0;
+}
+.masthead {
+  font-family: 'UnifrakturMaguntia', serif;
+  font-weight: 400;
+  font-size: 38px;
+  color: var(--ink);
+  text-align: center;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  border-bottom: 3px double var(--ink);
+  padding-bottom: 14px;
+  margin-bottom: 32px;
+}
+.masthead a { color: inherit; text-decoration: none; }
+
+.container { max-width: var(--max); margin: 0 auto; padding: 56px 24px 96px; }
+.greeting {
+  font-family: 'Source Serif Pro', serif;
+  font-style: italic;
+  font-size: 24px;
+  color: var(--muted);
+  margin: 0 0 6px 0;
+  font-weight: 400;
+}
+.title-line {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.2;
+  margin: 0 0 10px 0;
+  letter-spacing: -0.01em;
+}
+.dateline {
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--ink);
+}
+.upshot {
+  margin: 32px 0 40px;
+  padding: 20px 24px;
+  background: rgba(139, 58, 43, 0.04);
+  border-left: 3px solid var(--accent);
+}
+.upshot-label {
+  font-family: 'Space Mono', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+.upshot-text {
+  font-family: 'Source Serif Pro', 'Noto Serif SC', serif;
+  font-size: 18px;
+  font-style: italic;
+  color: var(--ink);
+  line-height: 1.5;
+}
+.toc {
+  margin: 0 0 56px 0;
+  padding: 20px 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+.toc-label {
+  font-family: 'Space Mono', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+.toc ol { margin: 0; padding-left: 24px; }
+.toc li {
+  font-family: 'Source Serif Pro', 'Noto Serif SC', serif;
+  font-size: 15px;
+  line-height: 1.6;
+  padding: 4px 0;
+  color: var(--ink);
+}
+.toc li a { color: inherit; text-decoration: none; }
+.toc li a:hover { color: var(--accent); }
+.toc .zh {
+  font-size: 13px;
+  color: var(--muted);
+  margin-left: 8px;
+}
+article h1 { display: none; }
+article h3 {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.3;
+  margin-top: 56px;
+  margin-bottom: 6px;
+  letter-spacing: -0.005em;
+}
+article h3::first-letter { color: var(--accent); }
+article h3 .zh-subtitle {
+  display: block;
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--muted);
+  margin-top: 3px;
+  letter-spacing: 0;
+}
+article p.meta {
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 4px 0 16px 0;
+}
+article p { margin: 12px 0; }
+article strong { font-weight: 600; }
+article hr {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 40px 0;
+}
+article ul {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+  font-family: 'Space Mono', monospace;
+  font-size: 12px;
+}
+article ul li {
+  padding: 6px 0;
+  border-bottom: 1px dashed var(--rule);
+}
+article ul li:last-child { border-bottom: none; }
+article ul a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+article ul a:hover { border-bottom-color: var(--accent); }
+.footer {
+  margin-top: 96px;
+  padding-top: 24px;
+  border-top: 1px solid var(--rule);
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  display: flex;
+  justify-content: space-between;
+}
+.footer a { color: var(--muted); }
+@media (max-width: 600px) {
+  .container { padding: 32px 20px 64px; }
+  .masthead { font-size: 28px; }
+  .title-line { font-size: 22px; }
+  .greeting { font-size: 20px; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="masthead"><a href="/">Ginger Cat Briefings</a></div>
+  <p class="greeting">祝你早安，午安，晚安~</p>
+  <h1 class="title-line">Daily Briefing — 2026-04-19</h1>
+  <div class="dateline">SUNDAY · APRIL 19, 2026</div>
+  <div class="upshot"><div class="upshot-label">Upshot · 今日要点</div><div class="upshot-text">中美角力贯穿AI研究、外交与中东战事三条主线。</div></div>
+  <div class="toc"><div class="toc-label">Contents · 今日目录</div><ol><li><a href="#item-1">🤖 Stanford AI Index: China Closes US Model Performance Gap to 2.7 Points</a><span class="zh">斯坦福AI指数：中美模型性能差距缩小至2.7分</span></li><li><a href="#item-2">🎓 China Boycotts NeurIPS Over US Sanctions Exclusion Clause</a><span class="zh">中国抵制NeurIPS：起因于美国制裁排除条款</span></li><li><a href="#item-3">🤝 Lavrov Visits Beijing; Russia Offers China Energy Lifeline Amid Iran War</a><span class="zh">拉夫罗夫访华；俄罗斯在伊朗战争期间向中国提供能源援助</span></li><li><a href="#item-4">☢️ US-Iran Islamabad Talks End Without Deal as Ceasefire Window Narrows</a><span class="zh">美伊伊斯兰堡谈判无果而终，停火窗口收窄</span></li></ol></div>
+  <article>
+    <hr />
+<h3 id="item-1">🤖 Stanford AI Index: China Closes US Model Performance Gap to 2.7 Points<span class="zh-subtitle">斯坦福AI指数：中美模型性能差距缩小至2.7分</span></h3>
+<p class="meta"><strong>类别</strong>: AI / China · <strong>来源</strong>: 🇨🇳 Xinhua · 🇨🇳 China Daily · 🇺🇸 Fortune · 🌐 Silicon Republic</p>
+<p>据 Fortune 报道，截至2026年3月，美国顶级模型 Anthropic 的 Claude Opus 4.6 在 Arena 评分上领先中国顶级模型 Dola-Seed 2.0 仅2.7%，而2023年5月该差距曾逾1300分。China Daily 称斯坦福报告认定美中模型性能差距已"实际上消除"，并引述美国财政部长 Scott Bessent 表示美国领先优势可能仅剩三至六个月；Xinhua 则强调中国在AI论文发表量、专利总量及工业机器人装机量方面均位居全球第一。据 China Daily 报道，2024年中国占全球AI专利授权量的74.2%（97,206件，共131,121件），美国份额则从2015年的42.8%降至12.1%；Fortune 报道，美国2025年私人AI投资达2859亿美元，超过中国124亿美元的23倍，同时美国新资助AI企业数量超过其他任何国家十倍以上。</p>
+<ul>
+<li>🇨🇳 Xinhua: <a href="https://english.news.cn/20260414/57f4123c37544c86bd2eabc487f47679/c.html" target="_blank" rel="noopener">english.news.cn ↗</a></li>
+<li>🇨🇳 China Daily: <a href="http://europe.chinadaily.com.cn/a/202604/17/WS69e18b89a310d6866eb43f39.html" target="_blank" rel="noopener">europe.chinadaily.com.cn ↗</a></li>
+<li>🇺🇸 Fortune: <a href="https://fortune.com/2026/04/16/stanford-study-how-has-china-gained-on-us-ai-war/" target="_blank" rel="noopener">fortune.com ↗</a></li>
+<li>🌐 Silicon Republic: <a href="https://www.siliconrepublic.com/machines/stanford-china-effectively-closes-us-ai-model-performance-gap" target="_blank" rel="noopener">siliconrepublic.com ↗</a></li>
+</ul>
+<hr />
+<h3 id="item-2">🎓 China Boycotts NeurIPS Over US Sanctions Exclusion Clause<span class="zh-subtitle">中国抵制NeurIPS：起因于美国制裁排除条款</span></h3>
+<p class="meta"><strong>类别</strong>: AI / China · <strong>来源</strong>: 🇨🇳 Xinhua · 🇨🇳 Global Times · 🌐 Nature</p>
+<p>据 Xinhua 报道，中国科学技术协会（CAST）、中国计算机学会（CCF）及中国自动化学会（CAA）相继宣布抵制2026年12月在悉尼举办的 NeurIPS 大会，起因是 NeurIPS 提交指南新增条款，依据美国制裁名单禁止华为等873个中国实体的研究人员投稿或参与同行评审。据 Global Times 报道，NeurIPS 随后通过其 X 账号发表公开道歉，将事件归因于"NeurIPS 基金会与法律团队之间的沟通失误"，并表示已更新相关政策文本；但据 Nature 报道，CAST 在 NeurIPS 道歉并修改政策后仍坚持其抵制立场，停止资助研究人员参会，并将 NeurIPS 论文在研究人员考核评价中降权。Nature 还引述 Georgetown 大学学者 William Hannas 称，若中国研究人员全部撤稿，NeurIPS 将"坦率地说……被掏空"，并援引数据指出去年 NeurIPS 大会第一作者中中国大陆研究人员占比最大。</p>
+<ul>
+<li>🇨🇳 Xinhua: <a href="https://english.news.cn/20260327/ca409f62b8ae42e686cdb9e0064b57f6/c.html" target="_blank" rel="noopener">english.news.cn ↗</a></li>
+<li>🇨🇳 Global Times: <a href="https://www.globaltimes.cn/page/202603/1357739.shtml" target="_blank" rel="noopener">globaltimes.cn ↗</a></li>
+<li>🌐 Nature: <a href="https://www.nature.com/articles/d41586-026-01058-x" target="_blank" rel="noopener">nature.com ↗</a></li>
+</ul>
+<hr />
+<h3 id="item-3">🤝 Lavrov Visits Beijing; Russia Offers China Energy Lifeline Amid Iran War<span class="zh-subtitle">拉夫罗夫访华；俄罗斯在伊朗战争期间向中国提供能源援助</span></h3>
+<p class="meta"><strong>类别</strong>: Geopolitics · <strong>来源</strong>: 🇨🇳 Xinhua · 🌐 Al Jazeera · 🇺🇸 CNBC · 🌐 Izvestia</p>
+<p>据 Al Jazeera 报道，中国国家主席习近平4月15日在北京人民大会堂会见俄罗斯外长拉夫罗夫，称中俄关系在当前动荡的国际局势下尤为"珍贵"，并敦促两国"坚定捍卫各自正当利益、维护全球南方国家团结"。据 CNBC 报道，拉夫罗夫在北京新闻发布会上表示，俄罗斯"当然可以填补中国及其他有意与俄罗斯平等互利合作国家所出现的资源缺口"，并称中俄两国有能力避免依赖中东局势带来的冲击；据 Izvestia 报道，此次访问议程事先已包括就乌克兰危机和中东局势进行"深入交换意见"。Al Jazeera 报道，俄罗斯总统普京预计将于今年上半年访华，俄媒引述消息人士称会面可能在5月18日当周举行，而美国总统特朗普与习近平的峰会据报定于5月14至15日举行。</p>
+<ul>
+<li>🇨🇳 Xinhua/MFA: <a href="https://www.fmprc.gov.cn/mfa_eng/xw/fyrbt/202604/t20260413_11891047.html" target="_blank" rel="noopener">fmprc.gov.cn ↗</a></li>
+<li>🌐 Al Jazeera: <a href="https://www.aljazeera.com/news/2026/4/15/chinas-xi-meets-russian-fm-lavrov-calls-relations-with-moscow-precious" target="_blank" rel="noopener">aljazeera.com ↗</a></li>
+<li>🇺🇸 CNBC: <a href="https://www.cnbc.com/2026/04/15/russia-china-energy-supplies-iran-war-trump-strait-of-hormuz-blockade.html" target="_blank" rel="noopener">cnbc.com ↗</a></li>
+<li>🌐 Izvestia: <a href="https://en.iz.ru/en/2077839/2026-04-13/russian-foreign-ministry-announced-lavrovs-visit-china-april-14-and-15" target="_blank" rel="noopener">en.iz.ru ↗</a></li>
+</ul>
+<hr />
+<h3 id="item-4">☢️ US-Iran Islamabad Talks End Without Deal as Ceasefire Window Narrows<span class="zh-subtitle">美伊伊斯兰堡谈判无果而终，停火窗口收窄</span></h3>
+<p class="meta"><strong>类别</strong>: Geopolitics · <strong>来源</strong>: 🇨🇳 Xinhua · 🌐 Al Jazeera · 🇺🇸 NBC News</p>
+<p>据 Xinhua 报道，美伊双方在伊斯兰堡举行的高级别会谈于4月12日（周日）结束，未能达成协议：美方副总统万斯称美国展现了"广泛灵活性"和"诚意谈判"但未获共识，伊朗则将僵局归咎于美方"过度要求"。据 NBC News 报道，分歧核心在于核问题：特朗普在 Truth Social 上发帖称"绝不允许铀浓缩"，而伊朗多家媒体报道称其10点方案包含"接受浓缩"的要求；Al Jazeera 报道，伊方10点方案还要求美国从该地区基地完全撤军，并要求继续控制霍尔木兹海峡过境权，与美方15点方案存在直接冲突。据 Xinhua 报道，伊朗外交部发言人 Esmail Baghaei 称双方在"两至三个关键问题"上仍存重大分歧，但表示伊朗对谈判仍持开放态度；此次停火由巴基斯坦斡旋，暂停了长达约40天的美以对伊军事打击行动。</p>
+<ul>
+<li>🇨🇳 Xinhua: <a href="https://english.news.cn/20260412/903b2389f63344d6ae31500c0620335a/c.html" target="_blank" rel="noopener">english.news.cn ↗</a></li>
+<li>🌐 Al Jazeera: <a href="https://www.aljazeera.com/news/2026/4/8/us-iran-ceasefire-deal-what-are-the-terms-and-whats-next" target="_blank" rel="noopener">aljazeera.com ↗</a></li>
+<li>🇺🇸 NBC News: <a href="https://www.nbcnews.com/world/iran/us-iran-agree-ceasefire-actually-deal-will-last-rcna266838" target="_blank" rel="noopener">nbcnews.com ↗</a></li>
+</ul>
+  </article>
+  <footer class="footer">
+    <span>Generated by Ginger Cat</span>
+    <a href="/">← All Issues</a>
+  </footer>
+</div>
+</body>
+</html>
