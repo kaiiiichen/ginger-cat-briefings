@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Daily Briefing - 2026-04-20 · Ginger Cat Briefings</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+
+<style>
+
+:root {
+  --ink: #1a1a1a;
+  --paper: #fdfbf6;
+  --rule: #c8bfa8;
+  --accent: #8b3a2b;
+  --muted: #6b6558;
+  --max: 720px;
+}
+* { box-sizing: border-box; }
+body {
+  font-family: 'Source Serif Pro', 'Noto Serif SC', Georgia, serif;
+  font-size: 18px;
+  line-height: 1.65;
+  color: var(--ink);
+  background: var(--paper);
+  margin: 0;
+  padding: 0;
+}
+.masthead {
+  font-family: 'UnifrakturMaguntia', serif;
+  font-weight: 400;
+  font-size: 38px;
+  color: var(--ink);
+  text-align: center;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  border-bottom: 3px double var(--ink);
+  padding-bottom: 14px;
+  margin-bottom: 32px;
+}
+.masthead a { color: inherit; text-decoration: none; }
+
+.container { max-width: var(--max); margin: 0 auto; padding: 56px 24px 96px; }
+.greeting {
+  font-family: 'Source Serif Pro', serif;
+  font-style: italic;
+  font-size: 24px;
+  color: var(--muted);
+  margin: 0 0 6px 0;
+  font-weight: 400;
+}
+.title-line {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.2;
+  margin: 0 0 10px 0;
+  letter-spacing: -0.01em;
+}
+.dateline {
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--ink);
+}
+.upshot {
+  margin: 32px 0 40px;
+  padding: 20px 24px;
+  background: rgba(139, 58, 43, 0.04);
+  border-left: 3px solid var(--accent);
+}
+.upshot-label {
+  font-family: 'Space Mono', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+.upshot-text {
+  font-family: 'Source Serif Pro', 'Noto Serif SC', serif;
+  font-size: 18px;
+  font-style: italic;
+  color: var(--ink);
+  line-height: 1.5;
+}
+.toc {
+  margin: 0 0 56px 0;
+  padding: 20px 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+.toc-label {
+  font-family: 'Space Mono', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+.toc ol { margin: 0; padding-left: 24px; }
+.toc li {
+  font-family: 'Source Serif Pro', 'Noto Serif SC', serif;
+  font-size: 15px;
+  line-height: 1.6;
+  padding: 4px 0;
+  color: var(--ink);
+}
+.toc li a { color: inherit; text-decoration: none; }
+.toc li a:hover { color: var(--accent); }
+.toc .zh {
+  font-size: 13px;
+  color: var(--muted);
+  margin-left: 8px;
+}
+article h1 { display: none; }
+article h3 {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.3;
+  margin-top: 56px;
+  margin-bottom: 6px;
+  letter-spacing: -0.005em;
+}
+article h3::first-letter { color: var(--accent); }
+article h3 .zh-subtitle {
+  display: block;
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--muted);
+  margin-top: 3px;
+  letter-spacing: 0;
+}
+article p.meta {
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 4px 0 16px 0;
+}
+article p { margin: 12px 0; }
+article strong { font-weight: 600; }
+article hr {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 40px 0;
+}
+article ul {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+  font-family: 'Space Mono', monospace;
+  font-size: 12px;
+}
+article ul li {
+  padding: 6px 0;
+  border-bottom: 1px dashed var(--rule);
+}
+article ul li:last-child { border-bottom: none; }
+article ul a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+article ul a:hover { border-bottom-color: var(--accent); }
+.footer {
+  margin-top: 96px;
+  padding-top: 24px;
+  border-top: 1px solid var(--rule);
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  display: flex;
+  justify-content: space-between;
+}
+.footer a { color: var(--muted); }
+@media (max-width: 600px) {
+  .container { padding: 32px 20px 64px; }
+  .masthead { font-size: 28px; }
+  .title-line { font-size: 22px; }
+  .greeting { font-size: 20px; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="masthead"><a href="/">Ginger Cat Briefings</a></div>
+  <p class="greeting">祝你早安，午安，晚安~</p>
+  <h1 class="title-line">Daily Briefing - 2026-04-20</h1>
+  <div class="dateline">MONDAY · APRIL 20, 2026</div>
+  <div class="upshot"><div class="upshot-label">Upshot · 今日要点</div><div class="upshot-text">美伊停火濒临破裂，前沿AI网络安全威胁与Kalshi法律争议同步升温。</div></div>
+  <div class="toc"><div class="toc-label">Contents · 今日目录</div><ol><li><a href="#item-1">⚔️ U.S.-Iran Ceasefire on the Brink as Ship Seized, Strait of Hormuz Again Disrupted</a><span class="zh">美伊停火濒临破裂：伊朗船只被扣，霍尔木兹海峡再度中断</span></li><li><a href="#item-2">🔒 Frontier AI Models Demonstrate Autonomous Vulnerability Discovery at Scale</a><span class="zh">前沿AI模型展示大规模自主漏洞发现能力</span></li><li><a href="#item-3">⚖️ Kalshi Prediction Markets Head Toward Supreme Court After Ninth Circuit Skepticism</a><span class="zh">第九巡回法院对Kalshi持怀疑态度，预测市场争议或走向最高法院</span></li></ol></div>
+  <article>
+    <hr />
+<h3 id="item-1">⚔️ U.S.-Iran Ceasefire on the Brink as Ship Seized, Strait of Hormuz Again Disrupted<span class="zh-subtitle">美伊停火濒临破裂：伊朗船只被扣，霍尔木兹海峡再度中断</span></h3>
+<p class="meta"><strong>类别</strong>: 地缘政治 · <strong>来源</strong>: 🇺🇸 CNBC · 🌍 Al Jazeera</p>
+<p>据CNBC报道，美国海军周日在阿曼湾扣押一艘伊朗集装箱船，特朗普称伊朗周末行动是对停火协议的"全面违反"，并威胁若伊朗拒绝达成协议将打击其发电厂和桥梁；两周停火将于周二到期。CNBC报道称，伊朗于周五宣布霍尔木兹海峡对商业船只全面开放，油价随即下跌逾10%，但德黑兰随后于周六在特朗普拒绝解除美国海军封锁后重新控制该海峡，多艘船只在尝试通行时遭到袭击并被迫撤退。据CNBC，特朗普宣布美伊谈判团队将于周一在伊斯兰堡恢复会谈；Al Jazeera则报道，伊朗外交部发言人巴盖伊表示"目前没有与美国举行第二轮谈判的计划"。据CNBC，西德克萨斯中质原油期货周一早间上涨逾6%至每桶89美元，布伦特原油上涨5.6%至每桶95.50美元。</p>
+<ul>
+<li>🇺🇸 CNBC: <a href="https://www.cnbc.com/2026/04/20/us-iran-war-middle-east-conflict-peace-deal-strait-hormuz-shipping-ceasefire-tensions.html" target="_blank" rel="noopener">cnbc.com ↗</a></li>
+<li>🌍 Al Jazeera: <a href="https://www.aljazeera.com/news/liveblog/2026/4/20/iran-war-live-tehran-slams-uss-piracy-after-ship-seizure-vows-response" target="_blank" rel="noopener">aljazeera.com ↗</a></li>
+</ul>
+<hr />
+<h3 id="item-2">🔒 Frontier AI Models Demonstrate Autonomous Vulnerability Discovery at Scale<span class="zh-subtitle">前沿AI模型展示大规模自主漏洞发现能力</span></h3>
+<p class="meta"><strong>类别</strong>: AI · <strong>来源</strong>: 🇺🇸 Palo Alto Networks (Unit 42) · 🇺🇸 The Hacker News</p>
+<p>据Palo Alto Networks（Unit 42）于今日发布的报告，其对前沿AI模型的测试显示，这些模型能够自主发现zero-day漏洞、压缩N-day漏洞的修补窗口、构建复杂漏洞利用链，并实时适应以绕过加固环境的安全控制；Unit 42特别指出，前沿AI模型对开源软件源代码的漏洞识别能力明显强于对编译代码的分析能力，并预测大规模开源软件供应链攻击将会增加。据Palo Alto Networks高管Lee Klarich于4月17日发布的文章，公司对包括Anthropic的Mythos模型（通过Project Glasswing）及OpenAI最新模型（通过Trusted Access for Cyber项目）进行了早期测试，结果显示不到三周内完成了相当于一整年渗透测试工作量的漏洞发现任务，并预测六个月内具备深度网络安全能力的高级AI模型将变得普遍。据The Hacker News于4月15日报道，OpenAI已推出针对防御性网络安全用例优化的GPT-5.4-Cyber，并扩大其Trusted Access for Cyber（TAC）项目覆盖范围，其Codex Security应用安全代理已累计修复超过3,000个严重及高危漏洞。</p>
+<ul>
+<li>🇺🇸 Palo Alto Networks (Unit 42): <a href="https://unit42.paloaltonetworks.com/ai-software-security-risks/" target="_blank" rel="noopener">unit42.paloaltonetworks.com ↗</a></li>
+<li>🇺🇸 The Hacker News: <a href="https://thehackernews.com/2026/04/openai-launches-gpt-54-cyber-with.html" target="_blank" rel="noopener">thehackernews.com ↗</a></li>
+</ul>
+<hr />
+<h3 id="item-3">⚖️ Kalshi Prediction Markets Head Toward Supreme Court After Ninth Circuit Skepticism<span class="zh-subtitle">第九巡回法院对Kalshi持怀疑态度，预测市场争议或走向最高法院</span></h3>
+<p class="meta"><strong>类别</strong>: 其他 · <strong>来源</strong>: 🇺🇸 Fortune · 🇺🇸 PYMNTS · 🏛️ Gambling Insider</p>
+<p>据Fortune和PYMNTS今日报道，第九巡回法院法官本周就内华达州上诉案进行了口头辩论，多名法官对预测市场体育事件合约与传统体育博彩之间的区别明显持怀疑态度。据Gambling Insider于4月17日报道，第九巡回法院巡回法官Ryan Nelson在4月16日庭审中斥相关区分论证为"诡辩到极致"，并反复质疑Kalshi、Robinhood及North American Derivatives Exchange（Crypto.com）的律师，为何通过预测市场平台下注与在凯撒赌场下注存在本质差异。据Fortune，第三巡回法院本月早些时候在新泽西州案中裁定支持Kalshi，认定其体育合约依据Dodd-Frank法案属于联邦法律监管下的掉期合约，受商品期货交易委员会（CFTC）管辖；而PYMNTS报道指出，若第九巡回法院在数周内作出不利于Kalshi的裁决，将形成巡回法院之间的裁决分歧，可能促使最高法院受理此案。</p>
+<ul>
+<li>🇺🇸 Fortune: <a href="https://fortune.com/2026/04/20/kalshi-supreme-court-sports-betting-prediction-markets/" target="_blank" rel="noopener">fortune.com ↗</a></li>
+<li>🇺🇸 PYMNTS: <a href="https://www.pymnts.com/legal/2026/supreme-court-might-decide-future-of-kalshi-sport-event-contracts/" target="_blank" rel="noopener">pymnts.com ↗</a></li>
+</ul>
+  </article>
+  <footer class="footer">
+    <span>Generated by Ginger Cat</span>
+    <a href="/">← All Issues</a>
+  </footer>
+</div>
+</body>
+</html>
