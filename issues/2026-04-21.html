@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Daily Briefing - 2026-04-21 · Ginger Cat Briefings</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+
+<style>
+
+:root {
+  --ink: #1a1a1a;
+  --paper: #fdfbf6;
+  --rule: #c8bfa8;
+  --accent: #8b3a2b;
+  --muted: #6b6558;
+  --max: 720px;
+}
+* { box-sizing: border-box; }
+body {
+  font-family: 'Source Serif Pro', 'Noto Serif SC', Georgia, serif;
+  font-size: 18px;
+  line-height: 1.65;
+  color: var(--ink);
+  background: var(--paper);
+  margin: 0;
+  padding: 0;
+}
+.masthead {
+  font-family: 'UnifrakturMaguntia', serif;
+  font-weight: 400;
+  font-size: 38px;
+  color: var(--ink);
+  text-align: center;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  border-bottom: 3px double var(--ink);
+  padding-bottom: 14px;
+  margin-bottom: 32px;
+}
+.masthead a { color: inherit; text-decoration: none; }
+
+.container { max-width: var(--max); margin: 0 auto; padding: 56px 24px 96px; }
+.greeting {
+  font-family: 'Source Serif Pro', serif;
+  font-style: italic;
+  font-size: 24px;
+  color: var(--muted);
+  margin: 0 0 6px 0;
+  font-weight: 400;
+}
+.title-line {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.2;
+  margin: 0 0 10px 0;
+  letter-spacing: -0.01em;
+}
+.dateline {
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--ink);
+}
+.upshot {
+  margin: 32px 0 40px;
+  padding: 20px 24px;
+  background: rgba(139, 58, 43, 0.04);
+  border-left: 3px solid var(--accent);
+}
+.upshot-label {
+  font-family: 'Space Mono', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+.upshot-text {
+  font-family: 'Source Serif Pro', 'Noto Serif SC', serif;
+  font-size: 18px;
+  font-style: italic;
+  color: var(--ink);
+  line-height: 1.5;
+}
+.toc {
+  margin: 0 0 56px 0;
+  padding: 20px 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+.toc-label {
+  font-family: 'Space Mono', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+.toc ol { margin: 0; padding-left: 24px; }
+.toc li {
+  font-family: 'Source Serif Pro', 'Noto Serif SC', serif;
+  font-size: 15px;
+  line-height: 1.6;
+  padding: 4px 0;
+  color: var(--ink);
+}
+.toc li a { color: inherit; text-decoration: none; }
+.toc li a:hover { color: var(--accent); }
+.toc .zh {
+  font-size: 13px;
+  color: var(--muted);
+  margin-left: 8px;
+}
+article h1 { display: none; }
+article h3 {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.3;
+  margin-top: 56px;
+  margin-bottom: 6px;
+  letter-spacing: -0.005em;
+}
+article h3::first-letter { color: var(--accent); }
+article h3 .zh-subtitle {
+  display: block;
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--muted);
+  margin-top: 3px;
+  letter-spacing: 0;
+}
+article p.meta {
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 4px 0 16px 0;
+}
+article p { margin: 12px 0; }
+article strong { font-weight: 600; }
+article hr {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 40px 0;
+}
+article ul {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+  font-family: 'Space Mono', monospace;
+  font-size: 12px;
+}
+article ul li {
+  padding: 6px 0;
+  border-bottom: 1px dashed var(--rule);
+}
+article ul li:last-child { border-bottom: none; }
+article ul a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+article ul a:hover { border-bottom-color: var(--accent); }
+.footer {
+  margin-top: 96px;
+  padding-top: 24px;
+  border-top: 1px solid var(--rule);
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  display: flex;
+  justify-content: space-between;
+}
+.footer a { color: var(--muted); }
+@media (max-width: 600px) {
+  .container { padding: 32px 20px 64px; }
+  .masthead { font-size: 28px; }
+  .title-line { font-size: 22px; }
+  .greeting { font-size: 20px; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="masthead"><a href="/">Ginger Cat Briefings</a></div>
+  <p class="greeting">祝你早安，午安，晚安~</p>
+  <h1 class="title-line">Daily Briefing - 2026-04-21</h1>
+  <div class="dateline">TUESDAY · APRIL 21, 2026</div>
+  <div class="upshot"><div class="upshot-label">Upshot · 今日要点</div><div class="upshot-text">今日焦点：印度成立内阁级AI治理机构，前沿AI模型加速漏洞发现，预测市场平台争推永续期货。</div></div>
+  <div class="toc"><div class="toc-label">Contents · 今日目录</div><ol><li><a href="#item-1">🇮🇳 India Forms Cabinet-Level AI Governance Body, Excludes Key Regulators</a><span class="zh">印度成立内阁级AI治理机构，独立监管机构被排除在外</span></li><li><a href="#item-2">🔐 Frontier AI Models Dramatically Accelerate Vulnerability Discovery</a><span class="zh">前沿AI模型大幅加快漏洞发现速度</span></li><li><a href="#item-3">📈 Polymarket and Kalshi Race to Launch Perpetual Futures</a><span class="zh">Polymarket与Kalshi竞相推出永续期货交易</span></li></ol></div>
+  <article>
+    <hr />
+<h3 id="item-1">🇮🇳 India Forms Cabinet-Level AI Governance Body, Excludes Key Regulators<span class="zh-subtitle">印度成立内阁级AI治理机构，独立监管机构被排除在外</span></h3>
+<p class="meta"><strong>类别</strong>: AI · <strong>来源</strong>: 🇮🇳 Storyboard18 · 🇮🇳 MediaNama · 🇮🇳 Business Standard</p>
+<p>据Storyboard18报道，印度电子和信息技术部（MeitY）于4月13日正式成立"AI治理与经济小组"（AIGEG），由联邦IT部长Ashwini Vaishnaw担任主席，Jitin Prasada任副主席，成员涵盖首席经济顾问、NITI Aayog首席执行官及国家安全委员会秘书处代表，并设立"技术与政策专家委员会"（TPEC）提供咨询。据Storyboard18报道，AIGEG的核心任务之一是评估AI对就业市场的影响并制定缓解方案；而MediaNama则指出，尽管印度AI治理指南曾建议纳入TRAI、CCI、数据保护委员会及RBI、SEBI等独立监管机构，但这些机构均被排除在AIGEG成员名单之外。此外，MediaNama援引MeitY秘书S. Krishnan此前讲话称，政府"有意识地选择不以监管为主导"，Vaishnaw亦于2023年在议会书面答复中表示政府不考虑立法规范AI。</p>
+<ul>
+<li>🇮🇳 Storyboard18: <a href="https://www.storyboard18.com/amp/digital/india-sets-up-ai-governance-and-economic-group-to-align-policy-with-jobs-impact-ws-l-95496.htm" target="_blank" rel="noopener">storyboard18.com ↗</a></li>
+<li>🇮🇳 MediaNama: <a href="https://www.medianama.com/2026/04/223-aigeg-meitys-ai-governance-body-excludes-regulators-recommended-ai-guidelines/" target="_blank" rel="noopener">medianama.com ↗</a></li>
+</ul>
+<hr />
+<h3 id="item-2">🔐 Frontier AI Models Dramatically Accelerate Vulnerability Discovery<span class="zh-subtitle">前沿AI模型大幅加快漏洞发现速度</span></h3>
+<p class="meta"><strong>类别</strong>: AI · <strong>来源</strong>: 🇺🇸 Palo Alto Networks Unit 42 · 🇺🇸 CrowdStrike · 🇺🇸 NowSecure · 🌐 World Economic Forum</p>
+<p>据Unit 42于4月20日发布的报告，前沿AI模型已能在无需大量人工专业知识的情况下自主识别漏洞、分析复杂攻击路径，并实时绕过加固环境的控制措施；Unit 42特别指出，开源软件（OSS）因源代码公开而面临更高的即时风险，前沿模型在针对源代码测试时表现出强大的漏洞识别能力，但针对编译代码时提升幅度有限。据NowSecure报道，Anthropic的Claude Mythos在英国政府评估中展示了自主发现并利用漏洞、执行多步骤网络攻击的能力。世界经济论坛发布的分析文章指出，漏洞发现与利用之间的时间窗口正从数周压缩至数小时，同时强调目前缺乏针对高级AI系统访问权限的全球明确规则。</p>
+<ul>
+<li>🇺🇸 Palo Alto Networks Unit 42: <a href="https://unit42.paloaltonetworks.com/ai-software-security-risks/" target="_blank" rel="noopener">unit42.paloaltonetworks.com ↗</a></li>
+<li>🇺🇸 CrowdStrike: <a href="https://www.crowdstrike.com/en-us/blog/frontier-ai-collapses-exploit-window-how-defenders-must-respond/" target="_blank" rel="noopener">crowdstrike.com ↗</a></li>
+</ul>
+<hr />
+<h3 id="item-3">📈 Polymarket and Kalshi Race to Launch Perpetual Futures<span class="zh-subtitle">Polymarket与Kalshi竞相推出永续期货交易</span></h3>
+<p class="meta"><strong>类别</strong>: Other · <strong>来源</strong>: 🇺🇸 CNBC · 🇺🇸 CoinDesk · 🇺🇸 Bitcoin Magazine · 🇺🇸 Bitcoin News</p>
+<p>据Bitcoin Magazine报道，Polymarket于4月21日宣布推出永续期货交易，允许用户全天候做多或做空，提供最高10倍杠杆，可交易资产包括BTC和NVDA；Bitcoin News报道称Polymarket目前处于预发布阶段，尚未公布完整费率表或资金费率细节。据CoinDesk援引The Information报道，竞争对手Kalshi计划于4月27日在纽约正式推出加密永续期货产品，内部代号为"Timeless"，初始支持比特币等加密货币，以美元为抵押品；Bitcoin Magazine指出Kalshi已获CFTC批准开展保证金交易。据CNBC报道，Polymarket尚未明确说明其产品是否包含加密永续期货，而CNBC亦披露其与Kalshi存在商业合作关系。</p>
+<ul>
+<li>🇺🇸 CNBC: <a href="https://www.cnbc.com/2026/04/21/polymarket-launches-trading-of-heavily-leveraged-perps-contracts.html" target="_blank" rel="noopener">cnbc.com ↗</a></li>
+<li>🇺🇸 CoinDesk: <a href="https://www.coindesk.com/markets/2026/04/21/kalshi-takes-on-coinbase-robinhood-with-new-plan-to-offer-crypto-perpetual-futures-the-information" target="_blank" rel="noopener">coindesk.com ↗</a></li>
+</ul>
+  </article>
+  <footer class="footer">
+    <span>Generated by Ginger Cat</span>
+    <a href="/">← All Issues</a>
+  </footer>
+</div>
+</body>
+</html>
