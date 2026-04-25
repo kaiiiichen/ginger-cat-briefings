@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Daily Briefing - 2026-04-25 · Ginger Cat Briefings</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+
+<style>
+
+:root {
+  --ink: #1a1a1a;
+  --paper: #fdfbf6;
+  --rule: #c8bfa8;
+  --accent: #8b3a2b;
+  --muted: #6b6558;
+  --max: 720px;
+}
+* { box-sizing: border-box; }
+body {
+  font-family: 'Source Serif Pro', 'Noto Serif SC', Georgia, serif;
+  font-size: 18px;
+  line-height: 1.65;
+  color: var(--ink);
+  background: var(--paper);
+  margin: 0;
+  padding: 0;
+}
+.masthead {
+  font-family: 'UnifrakturMaguntia', serif;
+  font-weight: 400;
+  font-size: 38px;
+  color: var(--ink);
+  text-align: center;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  border-bottom: 3px double var(--ink);
+  padding-bottom: 14px;
+  margin-bottom: 32px;
+}
+.masthead a { color: inherit; text-decoration: none; }
+
+.container { max-width: var(--max); margin: 0 auto; padding: 56px 24px 96px; }
+.greeting {
+  font-family: 'Source Serif Pro', serif;
+  font-style: italic;
+  font-size: 24px;
+  color: var(--muted);
+  margin: 0 0 6px 0;
+  font-weight: 400;
+}
+.title-line {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.2;
+  margin: 0 0 10px 0;
+  letter-spacing: -0.01em;
+}
+.dateline {
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--ink);
+}
+.upshot {
+  margin: 32px 0 40px;
+  padding: 20px 24px;
+  background: rgba(139, 58, 43, 0.04);
+  border-left: 3px solid var(--accent);
+}
+.upshot-label {
+  font-family: 'Space Mono', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+.upshot-text {
+  font-family: 'Source Serif Pro', 'Noto Serif SC', serif;
+  font-size: 18px;
+  font-style: italic;
+  color: var(--ink);
+  line-height: 1.5;
+}
+.toc {
+  margin: 0 0 56px 0;
+  padding: 20px 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+.toc-label {
+  font-family: 'Space Mono', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+.toc ol { margin: 0; padding-left: 24px; }
+.toc li {
+  font-family: 'Source Serif Pro', 'Noto Serif SC', serif;
+  font-size: 15px;
+  line-height: 1.6;
+  padding: 4px 0;
+  color: var(--ink);
+}
+.toc li a { color: inherit; text-decoration: none; }
+.toc li a:hover { color: var(--accent); }
+.toc .zh {
+  font-size: 13px;
+  color: var(--muted);
+  margin-left: 8px;
+}
+article h1 { display: none; }
+article h3 {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.3;
+  margin-top: 56px;
+  margin-bottom: 6px;
+  letter-spacing: -0.005em;
+}
+article h3::first-letter { color: var(--accent); }
+article h3 .zh-subtitle {
+  display: block;
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--muted);
+  margin-top: 3px;
+  letter-spacing: 0;
+}
+article p.meta {
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 4px 0 16px 0;
+}
+article p { margin: 12px 0; }
+article strong { font-weight: 600; }
+article hr {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 40px 0;
+}
+article ul {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+  font-family: 'Space Mono', monospace;
+  font-size: 12px;
+}
+article ul li {
+  padding: 6px 0;
+  border-bottom: 1px dashed var(--rule);
+}
+article ul li:last-child { border-bottom: none; }
+article ul a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+article ul a:hover { border-bottom-color: var(--accent); }
+.footer {
+  margin-top: 96px;
+  padding-top: 24px;
+  border-top: 1px solid var(--rule);
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  display: flex;
+  justify-content: space-between;
+}
+.footer a { color: var(--muted); }
+@media (max-width: 600px) {
+  .container { padding: 32px 20px 64px; }
+  .masthead { font-size: 28px; }
+  .title-line { font-size: 22px; }
+  .greeting { font-size: 20px; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="masthead"><a href="/">Ginger Cat Briefings</a></div>
+  <p class="greeting">祝你早安，午安，晚安~</p>
+  <h1 class="title-line">Daily Briefing - 2026-04-25</h1>
+  <div class="dateline">SATURDAY · APRIL 25, 2026</div>
+  <div class="upshot"><div class="upshot-label">Upshot · 今日要点</div><div class="upshot-text">美国对华AI知识产权争端全面升级，外交与技术封锁同步推进。</div></div>
+  <div class="toc"><div class="toc-label">Contents · 今日目录</div><ol><li><a href="#item-1">White House Accuses China of Industrial-Scale AI Model Theft</a><span class="zh">白宫指控中国"工业规模"窃取美国AI模型</span></li><li><a href="#item-2">U.S. State Department Issues Global Cable on Chinese AI Distillation</a><span class="zh">美国国务院向全球发出中国AI蒸馏攻击外交电报</span></li><li><a href="#item-3">China Moves to Restrict U.S. Investment in Chinese AI Startups</a><span class="zh">中国拟限制美国资本投资中国AI初创企业</span></li><li><a href="#item-4">DeepSeek Releases V4 with 1M-Token Context Window</a><span class="zh">深度求索发布V4模型，支持百万token上下文</span></li><li><a href="#item-5">Google DeepMind Releases Decoupled DiLoCo Distributed Training Architecture</a><span class="zh">谷歌DeepMind发布去耦合DiLoCo分布式训练架构</span></li></ol></div>
+  <article>
+    <hr />
+<h3 id="item-1">White House Accuses China of Industrial-Scale AI Model Theft<span class="zh-subtitle">白宫指控中国"工业规模"窃取美国AI模型</span></h3>
+<p class="meta"><strong>类别</strong>: AI · <strong>来源</strong>: 🇺🇸 CNN Business · 🇺🇸 NPR · 🇨🇳 Xinhua</p>
+<p>白宫科技政策办公室主任Michael Kratsios在周四备忘录中指控，以中国为主的境外实体利用数万个代理账户，通过"蒸馏"（distillation）技术对美国前沿AI模型实施"工业规模"能力提取。据CNN报道，Anthropic在2月已指控DeepSeek及另外两家中国AI实验室对其模型Claude实施上述攻击；据NPR报道，众议院外交委员会本周以两党一致方式通过一项议案，拟对实施"模型提取攻击"的境外行为者实施制裁。据新华社报道，外交部发言人郭嘉昆将上述指控定性为"完全没有根据"，要求美方"停止科技霸凌"。</p>
+<ul>
+<li>🇺🇸 CNN Business: <a href="https://www.cnn.com/2026/04/23/tech/white-house-accuses-china-copying-american-ai" target="_blank" rel="noopener">cnn.com ↗</a></li>
+<li>🇺🇸 NPR: <a href="https://www.npr.org/2026/04/24/g-s1-118582/administration-crackdown-on-chinese-firms-exploiting-u-s-ai-models" target="_blank" rel="noopener">npr.org ↗</a></li>
+<li>🇨🇳 Xinhua: <a href="https://english.news.cn/20260424/e232597f16ea477986fb5c45f48ea4a9/c.html" target="_blank" rel="noopener">english.news.cn ↗</a></li>
+</ul>
+<hr />
+<h3 id="item-2">U.S. State Department Issues Global Cable on Chinese AI Distillation<span class="zh-subtitle">美国国务院向全球发出中国AI蒸馏攻击外交电报</span></h3>
+<p class="meta"><strong>类别</strong>: AI · <strong>来源</strong>: 🇺🇸 CNBC（援引Reuters）</p>
+<p>据Reuters看到的一份外交电报，美国国务院于周五向全球驻外使馆发出指令，要求外交人员向所在国对口官员通报中国AI蒸馏风险，并为美国政府后续行动"奠定基础"。电报中点名DeepSeek、Moonshot AI及MiniMax三家中国AI公司。CNBC报道还指出，DeepSeek周五发布了为华为芯片适配的新模型预览版。中国驻美大使馆此前已将白宫同类指控称为"无中生有的指控"，并称北京"高度重视保护知识产权"。</p>
+<ul>
+<li>🇺🇸 CNBC: <a href="https://www.cnbc.com/2026/04/25/us-global-warning-alleged-china-ai-theft.html" target="_blank" rel="noopener">cnbc.com ↗</a></li>
+</ul>
+<hr />
+<h3 id="item-3">China Moves to Restrict U.S. Investment in Chinese AI Startups<span class="zh-subtitle">中国拟限制美国资本投资中国AI初创企业</span></h3>
+<p class="meta"><strong>类别</strong>: Tech · <strong>来源</strong>: 🇺🇸 Reuters · 🇺🇸 Quartz</p>
+<p>据Reuters及Quartz报道，中国拟要求美国资本投资中国AI科技公司须经政府审批，此举与Meta相关交易有关联。Bloomberg同样报道了这一消息，但具体内容未能获取。人民日报/新华社同日重申，中国外交部要求美国"停止科技霸凌"，未对投资限制措施作出直接说明。</p>
+<ul>
+<li>🇺🇸 Reuters (via Yahoo Finance): <a href="https://finance.yahoo.com/sectors/technology/articles/china-curb-us-investment-tech-092346046.html" target="_blank" rel="noopener">finance.yahoo.com ↗</a></li>
+<li>🇺🇸 Quartz: <a href="https://qz.com/china-government-approval-us-investment-ai-companies-042426" target="_blank" rel="noopener">qz.com ↗</a></li>
+</ul>
+<hr />
+<h3 id="item-4">DeepSeek Releases V4 with 1M-Token Context Window<span class="zh-subtitle">深度求索发布V4模型，支持百万token上下文</span></h3>
+<p class="meta"><strong>类别</strong>: AI · <strong>来源</strong>: 🇨🇳 Xinhua · 🇺🇸 CNBC · 🌐 Hugging Face</p>
+<p>据新华社报道，DeepSeek于周五发布并开源V4模型，Pro版本在agentic编程中与最佳开源模型持平，整体知识排名仅次于闭源模型Gemini 3.1 Pro；据CNBC报道，该模型同时提供Pro和Flash两个版本，DeepSeek称V4已针对Anthropic Claude Code等主流agent工具进行优化。据Hugging Face技术分析，V4-Pro拥有1.6万亿总参数、490亿激活参数，V4-Flash拥有2840亿总参数、130亿激活参数，两者均支持100万token上下文窗口；V4-Pro的单token推理FLOPs为DeepSeek V3.2的27%，KV缓存内存占用降至10%。新华社另援引国家数据局数据称，中国平均每日token调用量已从2024年初的1000亿增至2026年3月的140万亿。</p>
+<ul>
+<li>🇨🇳 Xinhua: <a href="https://english.news.cn/20260424/ddae99d450314c9188151ff979614d59/c.html" target="_blank" rel="noopener">english.news.cn ↗</a></li>
+<li>🇺🇸 CNBC: <a href="https://www.cnbc.com/2026/04/24/deepseek-v4-llm-preview-open-source-ai-competition-china.html" target="_blank" rel="noopener">cnbc.com ↗</a></li>
+<li>🌐 Hugging Face: <a href="https://huggingface.co/blog/deepseekv4" target="_blank" rel="noopener">huggingface.co ↗</a></li>
+</ul>
+<hr />
+<h3 id="item-5">Google DeepMind Releases Decoupled DiLoCo Distributed Training Architecture<span class="zh-subtitle">谷歌DeepMind发布去耦合DiLoCo分布式训练架构</span></h3>
+<p class="meta"><strong>类别</strong>: Research · <strong>来源</strong>: 🌐 Google DeepMind · 🌐 SDxCentral · 🌐 arXiv</p>
+<p>据Google DeepMind博客及arXiv论文（2604.21428，发布于4月23日），Decoupled DiLoCo将大规模训练任务分解为多个独立异步"learner"单元，各单元将参数片段异步传送至中央同步器，通过最小法定人数（minimum quorum）、自适应宽限窗口及token加权合并机制规避节点故障。据SDxCentral报道，该系统在模拟硬件故障条件下训练有效率（goodput）接近90%，而传统弹性方法在同等故障率下有效率可降至40%；系统实现"零全局停机"，并已在Gemma 4模型上完成实地验证。Google DeepMind研究员Arthur Douillard称，团队使用2–5 Gb/s广域网带宽跨美国四个区域训练了一个120亿参数模型，速度比传统同步方法快逾20倍。</p>
+<ul>
+<li>🌐 Google DeepMind: <a href="https://deepmind.google/blog/decoupled-diloco/" target="_blank" rel="noopener">deepmind.google ↗</a></li>
+<li>🌐 SDxCentral: <a href="https://www.sdxcentral.com/news/google-unveils-way-to-train-ai-models-across-distributed-data-centers/" target="_blank" rel="noopener">sdxcentral.com ↗</a></li>
+<li>🌐 arXiv: <a href="https://arxiv.org/html/2604.21428v1" target="_blank" rel="noopener">arxiv.org ↗</a></li>
+</ul>
+  </article>
+  <footer class="footer">
+    <span>Generated by Ginger Cat</span>
+    <a href="/">← All Issues</a>
+  </footer>
+</div>
+</body>
+</html>
